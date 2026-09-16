@@ -9,37 +9,35 @@
 
 | No. | Name | Student ID | Role |
 |---|---|---|---|
-| 1 | Student 1 | XXXXX | Project Coordinator |
-| 2 | Student 2 | XXXXX | Algorithm |
-| 3 | Student 3 | XXXXX | Flowchart |
-| 4 | Student 4 | XXXXX | JavaScript |
-| 5 | Student 5 | XXXXX | Testing & Documentation |
+| 1 | Kaysan Fadhil Wibwo | 2610312085 | Project Coordinator |
+| 2 | Muhamad Fahmi Dawam | 2610312099 | Algorithm |
+| 3 | Daffiza Aliya Nurnazila | 2610312083 | Flowchart |
+| 4 | Mikhail ramadhan | 2610312096 | JavaScript |
+| 5 | Panji Dwicaksana | 2610312097 | Testing & Documentation |
 
 ---
 
 ## 2. Project Title
 
-Number Guessing Game
+Travel Cost Calculator
 
 ---
 
 ## 3. Project Description
 
-This program is a simple game in which the player must guess a number determined by the computer.
+Travel Cost Calculator is an interactive application designed to help users estimate their total travel expenses based on key journey metrics. The program prompts users to input the travel distance in kilometers, vehicle fuel efficiency in kilometers per liter (km/L), and the current price of fuel per liter. It accommodates both one-way and round-trip journeys, automatically calculating the total distance, total estimated fuel consumption, and overall fuel cost. Designed for user convenience, the application outputs complete breakdown results and allows users to seamlessly perform multiple trip calculations in a continuous session without needing to restart the program.
 
 ---
 
 ## 4. Objectives
 
-This project is designed to apply the following programming concepts:
+The objective of this project is to build a practical **Travel Cost Calculator** while mastering fundamental software development concepts using **JavaScript**. 
 
-- Variables
-- Data types
-- Operators
-- Conditional statements
-- Loops
-- Algorithms
-- JavaScript
+Specifically, this project aims to:
+- **Implement Core Logic:** Utilize variables, data types, and arithmetic operators to compute fuel consumption and travel costs accurately.
+- **Manage Dynamic Trip Types:** Apply **conditional statements** (`if/else` or `switch`) to handle logic for both one-way and round-trip journeys.
+- **Enable Continuous Execution:** Incorporate **loops** (`while` or `do-while`) to allow users to calculate multiple trips without restarting the application.
+- **Develop Problem-Solving Skills:** Structure clean algorithms to transform raw user inputs into structured, meaningful outputs.
 
 ---
 
