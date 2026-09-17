@@ -1,0 +1,22 @@
+Algorithm
+
+1. Start the program.
+2. Input the travel distance in kilometers.
+3. Input the vehicle fuel efficiency in kilometers per liter.
+4. Input the fuel price per liter.
+5. Choose the type of trip:
+   - 1 = One Way
+   - 2 = Round Trip
+6. If the user chooses Round Trip, calculate:
+   `Total Distance = Distance × 2`
+7. If the user chooses One Way, calculate:
+   `Total Distance = Distance`
+8. Calculate the estimated fuel consumption:
+   `Fuel Consumption = Total Distance ÷ Fuel Efficiency`
+9. Calculate the estimated fuel cost:
+   `Fuel Cost = Fuel Consumption × Fuel Price`
+10. Display the total distance, fuel consumption, and total fuel cost.
+11. Ask the user whether they want to calculate another trip.
+12. If the user chooses Yes, repeat the calculation from Step 2.
+13. If the user chooses No, end the program.
+14. End.
