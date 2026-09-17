@@ -43,22 +43,25 @@ Specifically, this project aims to:
 
 ## 5. Input
 
-The program receives:
+The program receives the following data:
 
-- The player's guess
-- The number of attempts
+- `jarak` (The distance of the trip)
+- `efisiensi` (Fuel efficiency in km/liter)
+- `harga` (Fuel price per liter)
+- `jenis` (Type of trip: 1 for one-way, other numbers for round-trip)
 
 ---
 
 ## 6. Process
 
-The program compares the player's guess with the target number.
+The program calculates the travel details based on the input variables:
 
-If the guess is:
-
-- Too high → the program provides a "too high" message
-- Too low → the program provides a "too low" message
-- Correct → the player wins
+- **Determine Total Distance (`totalJarak`)**: 
+  If the trip type (`jenis`) is 1, the total distance is equal to the input distance. Otherwise, the distance is multiplied by 2.
+- **Determine Fuel Consumption (`konsumsi`)**: 
+  The total distance is divided by the fuel efficiency (`efisiensi`).
+- **Calculate Total Cost (`totalBiaya`)**: 
+  The calculated fuel consumption is multiplied by the fuel price (`harga`).
 
 ---
 
@@ -66,11 +69,10 @@ If the guess is:
 
 The program displays:
 
-- The result of each guess
-- Hints or feedback
-- The number of remaining attempts
-- The final game status (win/loss)
-
+- A header: `=== HASIL PERHITUNGAN ===`
+- The total calculated distance (in km)
+- The total fuel consumption (in liters)
+- The total fuel cost (in RP)
 ---
 
 ## 8. Algorithm
