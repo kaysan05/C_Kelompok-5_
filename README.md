@@ -89,7 +89,7 @@ The flowchart is created using Flowgorithm.
 
 File:
 
-[Travel Cost Calculator Fix.fprg](Travel Cost Calculator Fix.fprg)
+[Travel Cost Calculator Fix.fprg](Flowchart.fprg)
 
 ---
 
